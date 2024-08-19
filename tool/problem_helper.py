@@ -47,7 +47,7 @@ if __name__ == '__main__':
     ]):
         print(f'case {idx}: {i}')
         print(f'\tpredict: {o}')
-        
+        print(f'\toutput: {solution()}')
 """)
     else:
         print(f'file with problem id {problem_id} exists: {filepath}', )
