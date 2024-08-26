@@ -34,6 +34,8 @@ def create_problem_source_code(
 # 
 # ============================================================
 
+from typing import List
+
 
 class Solution:
     pass
