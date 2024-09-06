@@ -44,11 +44,11 @@ class Solution:
 if __name__ == '__main__':
     solution = Solution
 
-    for idx, (i, o) in enumerate([
+    for idx, (case_input, case_output) in enumerate([
         
     ]):
-        print(f'case {idx}: {i}')
-        print(f'\tpredict: {o}')
+        print(f'case {idx}: {case_input}')
+        print(f'\tpredict: {case_output}')
         print(f'\toutput: {solution()}')
 """)
     else:
