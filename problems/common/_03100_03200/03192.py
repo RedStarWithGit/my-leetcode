@@ -29,7 +29,7 @@ class Solution:
         result = 0
         reverse_counter = 0
         for e in nums:
-            if e==reverse_counter:
+            if e == reverse_counter:
                 result += 1
                 reverse_counter = (reverse_counter + 1) % 2
         return result

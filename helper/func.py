@@ -15,7 +15,7 @@ def func_cost_wrapper(func: Callable):
         start = time.time()
         result = func(*args)
         end = time.time()
-        print(f'function {func.__name__} execution has spent {end - start}ms')
+        print(f'function {func.__name__} execution has spent {end - start}s')
         return result
 
     return wrapper
